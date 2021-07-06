@@ -1,0 +1,35 @@
+.texts {
+    color:darkslategrey
+}
+
+.alicebluebg {
+    background-color:aliceblue;
+}
+
+.palegoldenrodbg {
+    background-color: palegoldenrod;
+}
+
+.lightbluebg {
+    background-color: lightblue;
+}
+
+.powderbluebg {
+    background-color: powderblue;
+}
+
+.centeredtexts {
+    text-align: center;
+}
+
+.bottompos {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    text-align: center;
+}
+
+.redtexts {
+    color:red;
+}

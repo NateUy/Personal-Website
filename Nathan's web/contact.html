@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="alicebluebg">
+
+    <form action="server.html" method="GET">
+        <!--id is for label. Name is for server-->
+        <div class="texts centeredtexts">
+        <br/>
+
+        <label for="date">Date</label>
+        <input type="date" name="Date" id="date" required>
+        <br/><br/>
+
+        <label for="firstName">Name</label>
+        <input id="firstName" name="First Name" type="text" placeholder="John" required>
+        <input id="firstName" name="Last Name" type="text" placeholder="Smith" required>
+
+        <br><br/>
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email" placeholder="name@email.com" required>
+        <br/><br/>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="Phone" required placeholder="012-345-6789">
+        <br/><br/>
+        <label for="select">Inquirer</label>
+        <select name="Inquirer" id="Inquirer" required>
+            <option value="Organization">Organization</option>
+            <option value="Individual">Individual</option>
+        </select>
+        <br/><br/>
+
+        <!--make this fixed size-->
+        <label for="message">Message</label>
+        <textarea id="message" name="Message" placeholder="I'd appreciate some feedback."></textarea>
+        <br/><br/>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        </div>
+    </form>
+
+
+    <div class="bottompos palegoldenrodbg">
+        <address class="texts">
+            <b>CONTACT ME</b><hr/>
+            Gmail: rodisaacnathanuy@gmail.com <br/> Telephone: 289-788-6553 <br/>
+            Address: 41 Seaton Place Drive Stoney Creek L8E 3E4 <br/>
+            LinkedIn: <a href="https://ca.linkedin.com/in/nathan-uy-174812196?trk=people-guest_people_search-card" target="_blank">LinkedIn</a>
+        </address>
+    </div>
+
+</body>
+</html>

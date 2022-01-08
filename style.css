@@ -1,21 +1,21 @@
 .texts {
-    color:darkslategrey
+    color:white
 }
 
 .alicebluebg {
-    background-color:aliceblue;
+    background-color: #383838;
 }
 
 .palegoldenrodbg {
-    background-color: palegoldenrod;
+    background-color: #484848;
 }
 
 .lightbluebg {
-    background-color: lightblue;
+    background-color: #505050;
 }
 
 .powderbluebg {
-    background-color: powderblue;
+    background-color: #404040;
 }
 
 .centeredtexts {

@@ -1,0 +1,169 @@
+body {
+  font-family: "Playfair Display", serif;
+  scroll-behavior: smooth;
+}
+
+p {
+  margin: 0.5px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0;
+}
+
+h4 {
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+td {
+  padding: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbarhr {
+  position: fixed;
+  width: 33%;
+  left: 64%;
+  top: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.nav-list {
+  position: fixed;
+  left: 65%;
+  top: 0;
+  padding: 10px;
+  display: flex;
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 1.5rem;
+}
+
+.nav-item a:hover {
+  background: lightgray;
+  border-radius: 0.2rem;
+  padding: 2px;
+}
+
+.nav-item a.active {
+  background: lightgray;
+  border-radius: 0.2rem;
+  text-decoration: none;
+  color: inherit;
+  padding: 2px;
+}
+
+.picture {
+  width: 25%;
+  height: 30%;
+  float: right;
+}
+
+.links {
+  text-decoration: none;
+  color: inherit;
+  margin: 5px;
+}
+
+.centering {
+  margin-top: 6%;
+  margin-left: 12%;
+  margin-right: 12%;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.tabscontainer {
+  margin-left: 12%;
+  margin-right: 12%;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.tabs,
+.tabs1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  cursor: pointer;
+}
+
+.tabs2,
+.tabs3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  cursor: pointer;
+}
+
+.tabs .active,
+.tabs1 .active,
+.tabs2 .active,
+.tabs3 .active {
+  background: lightgray;
+  border-radius: 0.2rem;
+  padding-bottom: 3px;
+}
+
+.tabscontents div,
+.tabscontents1 div,
+.tabscontents2 div,
+.tabscontents3 div {
+  display: none;
+}
+
+.tabscontents .active,
+.tabscontents1 .active,
+.tabscontents2 .active,
+.tabscontents3 .active {
+  display: block;
+}
+
+.project {
+  width: 700px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.resumepics {
+  width: 680px;
+  height: 730px;
+  border: 1px solid black;
+}
+
+.download {
+  border: 1.5px dashed black;
+  border-radius: 0.2rem;
+  padding: 2px;
+  display: inline-block;
+}
+
+.bottomhr {
+  width: 80%;
+  height: 1.5px;
+  background-color: black;
+}
+
+.bottom {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}

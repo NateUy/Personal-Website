@@ -1,6 +1,9 @@
 body {
   font-family: "Playfair Display", serif;
   scroll-behavior: smooth;
+  margin-left: 12%;
+  margin-right: 12%;
+  text-align: center;
 }
 
 p {
@@ -85,16 +88,10 @@ a {
 
 .centering {
   margin-top: 6%;
-  margin-left: 12%;
-  margin-right: 12%;
-  text-align: center;
   margin-bottom: 10rem;
 }
 
 .tabscontainer {
-  margin-left: 12%;
-  margin-right: 12%;
-  text-align: center;
   margin-bottom: 4rem;
 }
 
@@ -136,14 +133,14 @@ a {
 }
 
 .project {
-  width: 700px;
-  height: 500px;
+  width: 70%;
+  height: 65%;
   border: 1px solid black;
 }
 
 .resumepics {
-  width: 645px;
-  height: 785px;
+  width: 65%;
+  height: 70%;
   border: 1px solid black;
 }
 
@@ -166,4 +163,26 @@ a {
   width: 100%;
   font-size: 12px;
   text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbarhr {
+    display: none;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .picture {
+    width: 35%;
+    height: 40%;
+    float: none;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 }

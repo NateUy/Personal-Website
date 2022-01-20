@@ -30,7 +30,7 @@ tabs1.forEach((tab, i) => {
   });
 });
 
-let tabs2 = document.querySelectorAll(".tabs2 h2");
+let tabs2 = document.querySelectorAll(".tabs2 h3");
 let contents2 = document.querySelectorAll(".tabscontents2 div");
 
 tabs2.forEach((tab, i) => {

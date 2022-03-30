@@ -4,6 +4,10 @@ body {
   margin-left: 6%;
   margin-right: 13%;
   text-align: center;
+  background: linear-gradient(-90deg, #4c5054, #7d8897, #323b55, #313552);
+  background-size: 400% 400%;
+  animation: gradient 12s ease infinite;
+  height: 220vh;
 }
 
 p {
@@ -54,7 +58,7 @@ a {
   margin-top: 0;
   padding-left: 0.5rem;
   padding-right: 0;
-  border-left: 2px solid gray;
+  border-left: 2px solid lightgray;
 }
 
 .nav-item a {
@@ -66,13 +70,13 @@ a {
 }
 
 .nav-item a:hover {
-  background: lightgray;
+  background: #9897a9;
   border-radius: 0.2rem;
   padding: 2px;
 }
 
 .nav-item a.active {
-  background: lightgray;
+  background: #9897a9;
   border-radius: 0.2rem;
   text-decoration: none;
   color: inherit;
@@ -80,9 +84,10 @@ a {
 }
 
 .picture {
-  width: 20%;
-  height: 25%;
+  width: 18%;
+  height: 22.5%;
   float: right;
+  border-radius: 100%;
 }
 
 .links {
@@ -114,7 +119,7 @@ a {
 .tabs1 .active,
 .tabs2 .active,
 .tabs3 .active {
-  background: lightgray;
+  background: #9897a9;
   border-radius: 0.2rem;
   padding-bottom: 3px;
 }
@@ -164,6 +169,18 @@ a {
   width: 100%;
   font-size: 12px;
   text-align: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media only screen and (max-width: 1050px) {

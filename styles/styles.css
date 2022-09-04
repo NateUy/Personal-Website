@@ -101,7 +101,12 @@ a {
   margin-bottom: 10rem;
 }
 
-.tabs,
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  cursor: pointer;
+}
+
 .tabs1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

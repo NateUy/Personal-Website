@@ -113,7 +113,12 @@ a {
   cursor: pointer;
 }
 
-.tabs2,
+.tabs2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  cursor: pointer;
+}
+
 .tabs3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
